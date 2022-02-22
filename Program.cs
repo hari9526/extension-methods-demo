@@ -13,6 +13,18 @@ namespace ExtensionMethods
             g.M3();
             g.M4();
             g.M5("Method Name: M5");
+
+            int i = 10;
+            if (i.isGreater(100))
+            {
+                Console.WriteLine("Initial value is greater"); 
+
+            }
+            else
+            {
+                Console.WriteLine("Initial value is lesser"); 
+            }
+            Console.ReadLine(); 
         }
     }
 }

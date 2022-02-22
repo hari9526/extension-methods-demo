@@ -18,5 +18,11 @@ namespace ExtensionMethods
             Console.WriteLine(msg); 
         }
 
+        public static bool isGreater(this int i, int value)
+        {
+            return i > value; 
+
+        }
+
     }
 }
